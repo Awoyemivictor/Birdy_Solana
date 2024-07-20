@@ -51,23 +51,23 @@ const Navigation = ({ mobileMenuHandle }) => {
                 <div className="home_pages">
                   <a href="/">
                     {" "}
-                    <img src={home1} alt="icon" />{" "}
+                    {/* <img src={home1} alt="icon" />{" "} */}
                   </a>
                   <a href="/home-two">
                     {" "}
-                    <img src={home2} alt="icon" />{" "}
+                    {/* <img src={home2} alt="icon" />{" "} */}
                   </a>
                   <a href="/home-three">
                     {" "}
-                    <img src={home3} alt="icon" />{" "}
+                    {/* <img src={home3} alt="icon" />{" "} */}
                   </a>
                   <a href="/home-four">
                     {" "}
-                    <img src={home4} alt="icon" />{" "}
+                    {/* <img src={home4} alt="icon" />{" "} */}
                   </a>
                   <a href="/home-five">
                     {" "}
-                    <img src={home5} alt="icon" />{" "}
+                    {/* <img src={home5} alt="icon" />{" "} */}
                   </a>
                 </div>
               </div>
@@ -81,29 +81,29 @@ const Navigation = ({ mobileMenuHandle }) => {
                 <h3>SUB PAGES</h3>
 
                 <div className="pages_list">
-                  <a href="/mint-1"> Minting Page 1 </a>
-                  <a href="/mint-2"> Minting Page 2 </a>
-                  <a href="/coming-soon"> Coming Soon </a>
+                  {/* <a href="/mint-1"> Minting Page 1 </a> */}
+                  {/* <a href="/mint-2"> Minting Page 2 </a> */}
+                  {/* <a href="/coming-soon"> Coming Soon </a> */}
                   <a href="/post"> Blog Page </a>
-                  <a href="/blogs"> Blog Details </a>
+                  {/* <a href="/blogs"> Blog Details </a> */}
                   <a href="/about"> About Us </a>
                   <a href="/roadmap"> Roadmap </a>
-                  <a href="/collections"> Collections </a>
+                  {/* <a href="/collections"> Collections </a> */}
                   <a href="/faq"> FAQs </a>
                   <a href="/contact"> Contact Us </a>
                 </div>
               </div>
               <div className="menu_widgets">
-                <h3>JOIN WITH US</h3>
+                <h3>FOLLOW US</h3>
 
                 <div className="social_links">
-                  <a href="#">
+                  {/* <a href="#">
                     <img src={openseaIcon} alt="icon" />
                     <span className="hover_shape">
                       <img src={hoverShape} alt="shape" />
                     </span>
-                  </a>
-                  <a href="#">
+                  </a> */}
+                  {/* <a href="#">
                     <FaLinkedinIn />
                     <span className="hover_shape">
                       <img src={hoverShape} alt="shape" />
@@ -114,31 +114,31 @@ const Navigation = ({ mobileMenuHandle }) => {
                     <span className="hover_shape">
                       <img src={hoverShape} alt="shape" />
                     </span>
-                  </a>
-                  <a href="#">
+                  </a> */}
+                  <a href="https://t.me/BirdySolanacommunity">
                     <FaTelegramPlane />
                     <span className="hover_shape">
                       <img src={hoverShape} alt="shape" />
                     </span>
                   </a>
-                  <a href="#">
+                  {/* <a href="#">
                     <FaFacebook />
                     <span className="hover_shape">
                       <img src={hoverShape} alt="shape" />
                     </span>
-                  </a>
-                  <a href="#">
+                  </a> */}
+                  <a href="https://x.com/birdysolana">
                     <FaXTwitter />
                     <span className="hover_shape">
                       <img src={hoverShape} alt="shape" />
                     </span>
                   </a>
-                  <a href="#">
+                  {/* <a href="#">
                     <img src={mediumIcon} alt="icon" />
                     <span className="hover_shape">
                       <img src={hoverShape} alt="shape" />
                     </span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -147,8 +147,8 @@ const Navigation = ({ mobileMenuHandle }) => {
                   {" "}
                   <img src={mailIcon} alt="icon" /> MAIL US
                 </h3>
-                <p>Info: ask@domain.com</p>
-                <p>Support: wearehere@domain.com</p>
+                <p>Info: info@birdytheadopteddog.com</p>
+                <p>Support: support@birdytheadopteddog.com</p>
               </div>
             </div>
           </div>

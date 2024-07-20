@@ -28,7 +28,7 @@ const Popup = ({ popupHandle }) => {
     <PopupStyleWrapper className="popup_wrapper">
       <div className="popup_container">
         <a
-          href="https://bit.ly/3axrewr"
+          href="https://raydium.io/swap/"
           className="popup_inner"
           target="_blank"
           rel="noopener"
@@ -44,8 +44,8 @@ const Popup = ({ popupHandle }) => {
           </Slider>
 
           <div className="popup_content">
-            <h5>Looking For FUll Minting Functional Script ?</h5>
-            <h6>React JS, Smart Contract, Solidity & Metamask Working</h6>
+            <h5>Looking to get started with birdy token?</h5>
+            <h6>Swap Directly on Radium...</h6>
           </div>
         </a>
 
