@@ -28,7 +28,7 @@ const HomeV5 = () => {
       <Layout>
         <GlobalStyles />
         {visibility && <MintNowModal />}
-        {walletModalvisibility && <WalletModal />}
+        {/* {walletModalvisibility && <WalletModal />} */}
         <Header />
 
         <StyleWrapper>
@@ -72,7 +72,7 @@ const HomeV5 = () => {
             <TabPanel>
               <Mint />
             </TabPanel>
-            
+
           </Tabs>
         </StyleWrapper>
       </Layout>
