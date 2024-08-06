@@ -3,51 +3,51 @@ import shapeIcon from "../images/icon/mint_live_icon.svg";
 const data = [
   {
     icon: shapeIcon,
-    text: "Presale Live",
+    text: "Presale",
   },
   {
     icon: shapeIcon,
-    text: "Buy now",
+    text: "Coming",
   },
   {
     icon: shapeIcon,
-    text: "Presale Live",
+    text: "Presale",
   },
   {
     icon: shapeIcon,
-    text: "Buy now",
+    text: "Coming",
   },
   {
     icon: shapeIcon,
-    text: "Presale Live",
+    text: "Presale",
   },
   {
     icon: shapeIcon,
-    text: "Buy now",
+    text: "Coming",
   },
   {
     icon: shapeIcon,
-    text: "Presale Live",
+    text: "Presale",
   },
   {
     icon: shapeIcon,
-    text: "Buy now",
+    text: "Coming",
   },
   {
     icon: shapeIcon,
-    text: "Presale Live",
+    text: "Presale",
   },
   {
     icon: shapeIcon,
-    text: "Buy now",
+    text: "Coming",
   },
   {
     icon: shapeIcon,
-    text: "Presale Live",
+    text: "Presale",
   },
   {
     icon: shapeIcon,
-    text: "Buy now",
+    text: "Coming",
   },
 ];
 
