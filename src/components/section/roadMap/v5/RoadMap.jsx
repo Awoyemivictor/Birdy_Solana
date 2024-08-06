@@ -1,8 +1,8 @@
+import React from "react";
 import SectionTitle from "../../../../common/sectionTitle";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { Slider, SliderItem } from "../../../../common/slider/Slider";
 import data from "../../../../assets/data/roadMap/roadMapV5";
-
 import RoadMapStyleWrapper from "./RoadMap.style";
 
 const RoadMap = () => {
@@ -66,13 +66,13 @@ const RoadMap = () => {
     <RoadMapStyleWrapper id="roadmap">
       <div className="container">
         <SectionTitle
-          title="Roadmap"
-          subtitle="Our Goals"
+          // title="Download Roadmap & Whitepaper"
+          subtitle="Learn About Our Roadmap & Project Whitepaper"
           className="section_title"
         />
       </div>
-
-      <div className="road_map_slider">
+{/* 
+      { <div className="road_map_slider">
         <div className="container">
           <Slider {...sliderSettings}>
             {data?.map((item, i) => (
@@ -92,7 +92,21 @@ const RoadMap = () => {
             ))}
           </Slider>
         </div>
+      </div> } */}
+       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '20px', padding: '50px' }}>
+        <a href="src/assets/pdf/Birdy Solana Roadmap.pdf" download>
+          <button style={{ padding: "10px 20px", fontSize: "16px", backgroundColor: "#28a745", color: "#fff", border: "none", cursor: "pointer" }}>
+            Download Roadmap PDF
+          </button>
+        </a>
+        <a href="src/assets/pdf/Birdy Solana Whitepaper.pdf" download>
+          <button style={{ padding: "10px 20px", fontSize: "16px", backgroundColor: "#cb7a3b", color: "#fff", border: "none", cursor: "pointer" }}>
+            Download Whitepaper PDF
+          </button>
+        </a>
       </div>
+
+
     </RoadMapStyleWrapper>
   );
 };

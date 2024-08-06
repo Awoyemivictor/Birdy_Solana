@@ -97,6 +97,47 @@ const RoadMapStyleWrapper = styled.section`
     }
   }
 
+
+    .roadmap_buttons {
+      display: flex:
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      column-gap: 20px;
+
+      a {
+        text-decoration: none; // Remove underline from link
+      }
+
+      .btn-min,
+      .btn-outline {
+        width: 170px;
+        height: 55px:
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border: none;
+        color: #fff;
+      }
+
+      .btn-mint {
+        background-color: #28a745;
+
+        $:hover {
+          background-color: #218838;
+        }
+      }
+      
+      .btn-outline {
+        background-color: #6c757d;
+        border: 1px solid #6c757d;
+
+        &:hover {
+          background-color: $5a6268;
+        }
+      }
+    }
+
   @media only screen and (max-width: 1366px) {
     .section_title {
       h3 {
