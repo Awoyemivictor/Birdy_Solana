@@ -8,7 +8,7 @@ import HomeV5 from "./pages/homeV5";
 // import BlogDetails from "./pages/blogDetails";
 // import ComingSoon from "./pages/comingSoon";
 import AboutPage from "./pages/about";
-import RoadmapPage from "./pages/roadmap";
+// import RoadmapPage from "./pages/roadmap";
 // import Collections from "./pages/collections";
 import ContactPage from "./pages/contact";
 // import MintPageOne from "./pages/mint-1";
@@ -29,7 +29,7 @@ function App() {
         {/* <Route path="/coming-soon" element={<ComingSoon />} /> */}
         <Route path="/about" element={<AboutPage />} />
         <Route path="/faq" element={<FAQPage />} />
-        <Route path="/roadmap" element={<RoadmapPage />} />
+        {/* <Route path="/roadmap" element={<RoadmapPage />} /> */}
         {/* <Route path="/collections" element={<Collections />} /> */}
         <Route path="/contact" element={<ContactPage />} />
         {/* <Route path="/mint-1" element={<MintPageOne />} />
