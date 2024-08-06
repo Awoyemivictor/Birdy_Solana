@@ -61,20 +61,7 @@ const HomeV5 = () => {
               <About />
             </TabPanel>
             <TabPanel>
-
-            {/* <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '20px', padding: '50px' }}>
-              <a href="/path-to-your-roadmap.pdf" download>
-                <button style={{ padding: "10px 20px", fontSize: "16px" }}>
-                  Download Roadmap PDF
-                </button>
-              </a>
-              <a href="/path-to-your-roadmap.pdf" download>
-                <button style={{ padding: "10px 20px", fontSize: "16px" }}>
-                  Download Roadmap PDF
-                </button>
-              </a>
-            </div> */}
-            <RoadMap />
+              <RoadMap />
             </TabPanel>
             <TabPanel>
               <Team />
@@ -85,6 +72,7 @@ const HomeV5 = () => {
             <TabPanel>
               <Mint />
             </TabPanel>
+            
           </Tabs>
         </StyleWrapper>
       </Layout>
