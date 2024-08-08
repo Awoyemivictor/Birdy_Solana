@@ -94,14 +94,20 @@ const RoadMap = () => {
         </div>
       </div> } */}
        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '20px', padding: '50px' }}>
-        <a href="src/assets/pdf/Birdy Solana Roadmap.pdf" download>
+        <a href="src/assets/pdf/Birdy_Roadmap.pdf" download>
           <button style={{ padding: "10px 20px", fontSize: "16px", backgroundColor: "#28a745", color: "#fff", border: "none", cursor: "pointer" }}>
             Download Roadmap PDF
           </button>
         </a>
-        <a href="src/assets/pdf/Birdy Solana Whitepaper.pdf" download>
+        <a href="src/assets/pdf/Birdy_Whitepaper.pdf" download>
           <button style={{ padding: "10px 20px", fontSize: "16px", backgroundColor: "#cb7a3b", color: "#fff", border: "none", cursor: "pointer" }}>
             Download Whitepaper PDF
+          </button>
+        </a>
+
+        <a href="src/assets/pdf/Birdy_Legal_Disclaimer.pdf" download>
+          <button style={{ padding: "10px 20px", fontSize: "16px", backgroundColor: "#28a745", color: "#fff", border: "none", cursor: "pointer" }}>
+            Download Legal Disclaimer PDF
           </button>
         </a>
       </div>
