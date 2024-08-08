@@ -6,7 +6,7 @@ import Button from "../../../../common/button";
 import BannerV1Wrapper from "./Banner.style";
 
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { FaTelegramPlane, FaTwitter, FaCopy } from "react-icons/fa";
+import { FaTelegramPlane, FaTwitter, FaCopy, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 
 // import heartIcon from "../../../../assets/images/icon/v5-hart-icon.svg";
 import heartIcon from "../../../../assets/images/icon/solana_logo5.png";
@@ -55,7 +55,7 @@ const Banner = () => {
           <div className="col-lg-6 order-1 order-lg-0">
             <div className="bithu_v5_baner_left">
               <h2>
-                BIRDY SOLANA <img src={heartIcon} alt="icon" />
+                BIRDY COMMUNITY <img src={heartIcon} alt="icon" />
               </h2>
               <h3>
                 <span className="count">
@@ -103,6 +103,15 @@ const Banner = () => {
                 </a>
                 <a href="https://x.com/birdysolana" target="_blank" rel="noopener noreferrer">
                   <FaTwitter />
+                </a>
+                <a href="https://www.instagram.com/birdy.community" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram />
+                </a>
+                <a href="https://www.tiktok.com/@birdycommunity" target="_blank" rel="noopener noreferrer">
+                  <FaTiktok />
+                </a>
+                <a href="https://youtube.com/@birdycommunityofficial" target="_blank" rel="noopener noreferrer">
+                  <FaYoutube />
                 </a>
               </div>
 
