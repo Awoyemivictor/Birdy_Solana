@@ -98,7 +98,7 @@ const Banner = () => {
               </div>
 
               <div className="social-icons">
-                <a href="https://t.me/BirdySolanacommunity" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/Birdy_Community" target="_blank" rel="noopener noreferrer">
                   <FaTelegramPlane />
                 </a>
                 <a href="https://x.com/birdysolana" target="_blank" rel="noopener noreferrer">
