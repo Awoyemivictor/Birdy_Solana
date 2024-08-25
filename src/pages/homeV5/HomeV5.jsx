@@ -20,7 +20,7 @@ const HomeV5 = () => {
 
   const handleRoadmapClick = (e) => {
     e.preventDefault();
-    window.open("https://heyzine.com/flip-book/2919a1bbd6.html", "_blank", "noopener,noreferrer");
+    window.open("https://heyzine.com/flip-book/6b986a6b22.html", "_blank", "noopener,noreferrer");
   };
 
   return (
